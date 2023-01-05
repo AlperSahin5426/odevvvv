@@ -1,0 +1,119 @@
+
+/*  */
+
+.dark-bg {
+    background-image: linear-gradient(rgba(0,0,0, .9), rgba(0,0,0, .9)), url('../img/main_bg.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+
+.size-modal {
+    max-width: 100%;
+    max-height: 100%;
+}
+#hero .container {
+    height: 50vh;
+}
+.navbar-nav {
+    font-size: 30px;
+  }
+  .navbar-nav2 {
+    font-size: 40px;
+  }
+.generic {
+    padding: 100px 0;
+}
+
+.navbar-bgbg {
+    background-color: #111634 ;
+}
+/* Latest Section */
+
+section#latest .latest-item img {
+    min-height: 100%;
+    width: 100%;
+}
+.right-column {
+    height: calc(100vh - 250px);
+  }
+.div-fotograf {
+    position: relative;
+    overflow: hidden;
+}
+.photo-size {
+    width: 382px;
+    height: 278px;
+    margin-top: 20px;
+    
+}
+
+.photo-size2 {
+    width: 400px;
+    height: 300px;
+    margin-top: 20px;
+    
+}
+.footer-margin {
+    margin-bottom: 0;
+    
+}
+
+
+.div-fotograf:hover img {
+    z-index: 1;
+    box-shadow: 0 0 50px rgba(255, 25, 209, 0.251);
+}
+
+section#latest button {
+    max-height: 250px;
+    padding: 0;
+    overflow: hidden;
+}
+
+section#latest .latest-item {
+    position: relative;
+}
+
+section#latest .latest-item:hover .overlay {
+    opacity: 1;
+    background: rgba(63, 43, 95, 0.92);
+}
+
+
+section#latest .latest-item:hover i {
+    opacity: 1;
+    transform: none;
+}
+
+section#latest .overlay {
+    position: absolute;
+    top:0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    opacity: .5;
+    color: #fff;
+    transition: all .5s;
+}
+
+section#latest .overlay i {
+    transform: translateY(20px);
+    transition: all .5s;
+    opacity: 0;
+    font-size: 2rem;
+
+}
+.card-bgbg {
+    background-color: rgb(240, 255, 245);
+}
+
+
+
+/* @media (max-width: 767.98px) { 
+    #hero p.lead {
+        font-size: 10px;
+        color: blue;
+    }
+ } */
